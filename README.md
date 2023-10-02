@@ -7,5 +7,5 @@ The models are:
 4. CAViaR – Indirect GARCH(1,1) (CAViaR–IG), Engle and Manganelli(2004);
 
 The models will be backtested using Unconditional Coverage test, Independence Test, and Conditional
-Coverage Test.
-The Main file contains an example on how to use the functions.
+Coverage Test.\\
+The Main file contains an example on how to estimate all VaR models and how to perform the backtesting procedures.
