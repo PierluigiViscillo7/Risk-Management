@@ -8,3 +8,4 @@ The models are:
 
 The models will be backtested using Unconditional Coverage test, Independence Test, and Conditional
 Coverage Test.
+The Main file contains an example on how to use the functions.
