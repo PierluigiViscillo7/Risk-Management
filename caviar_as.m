@@ -1,7 +1,16 @@
 function AS_CAViaR=caviar_as(param,ret,alpha)
+
 % Function to compute the beta estimates of the Asymmetric Slope(1,1) CAViaR
 %(CAViaR-AS) of Engle and Manganelli(2004)
 % using regression quantiles, introduced by Koenker and Bassett(1978)
+%
+% INPUTS:
+% Param: vector of parameters
+% ret: time-series of returns
+% alpha: significance level
+%
+% OUTPUT:
+% CAViaR-IG estimates
 
 b0=param(1);
 b1=param(2);
